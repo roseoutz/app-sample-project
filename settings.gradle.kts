@@ -32,6 +32,7 @@ include(":app:notification-batch")
 include(":app:notification-worker")
 
 include(":app-common:common")
+include(":app-common:jpa-common")
 
 include(":app-core:booking:core")
 include(":app-core:booking:infrastructure")

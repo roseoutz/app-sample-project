@@ -101,8 +101,8 @@ subprojects {
 
     dependencies {
         // JPA, Web 모두 기본으로 주입은 귀찮아서...
-        implementation("org.springframework.boot:spring-boot-starter-data-jpa") // JPA
-        implementation("org.springframework.boot:spring-boot-starter-web")      // Web
+        implementation("org.springframework:spring-context") // JPA
+        implementation("org.springframework:spring-tx")      // Web
 
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2")
         testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
